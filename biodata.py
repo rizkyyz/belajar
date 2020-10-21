@@ -10,7 +10,7 @@ agama= raw_input ("Masukan Agama: ")
 pekerjaan= raw_input ("Pekerjaan: ")
 hoby= raw_input ("Masukan Hoby: ")
 km= raw_input ("Kata Mutiara: ")
-kt= raw_input ("Kata kata: ")
+kt= raw_input ("Kata Kata: ")
 
 #Menampilkan Inputan User
 print "============================"
