@@ -1,6 +1,6 @@
-print "============="
-print "   Biodata   "
-print "============="
+print "  =============  "
+print "     Biodata     "
+print "  =============  "
 #variabel
 nama= raw_input ("Masukan Nama Anda: ")
 alamat= raw_input ("Masukan Alamat: ")
@@ -12,14 +12,19 @@ hoby= raw_input ("Masukan Hoby: ")
 km= raw_input ("Kata Mutiara: ")
 
 #Menampilkan Inputan User
-print "============"
-print "Biodata Anda"
-print "============"
-print "Nama: ",nama
-print "Alamat: ",alamat
+print "============================"
+print "       Biodata Anda         "
+print "============================"
+print "Nama                : ",nama
+print "Alamat              : ",alamat
 print "Tempat Tanggal Lahir: ",ttl
-print "Jenis Kelamin: ",jk
-print "Agama: ",agama
-print "Pekerjaan: ",pekerjaan
-print "Hoby: ",hoby
-print "Kata Mutiara: ",km
+print "Jenis Kelamin       : ",jk
+print "Agama               : ",agama
+print "Pekerjaan           : ",pekerjaan
+print "Hoby                : ",hoby
+print "Kata Mutiara        : ",km
+Print ("Kalau tidak tahu bagaimana cara mengungkapkannya, kamu bisa mengutarakan perasaan cintamu dengan kumpulan kata kata
+       cinta romantis ini. Meskipun hanya sekedar kata kata, namun jika diimbangi dengan perbuatan nyata, maka kamu sudah membuktikan
+       bahwa perasaanmu memang serius")
+
+
