@@ -23,8 +23,5 @@ print "Agama               : ",agama
 print "Pekerjaan           : ",pekerjaan
 print "Hoby                : ",hoby
 print "Kata Mutiara        : ",km
-Print ("Kalau tidak tahu bagaimana cara mengungkapkannya, kamu bisa mengutarakan perasaan cintamu dengan kumpulan kata kata
-       cinta romantis ini. Meskipun hanya sekedar kata kata, namun jika diimbangi dengan perbuatan nyata, maka kamu sudah membuktikan
-       bahwa perasaanmu memang serius")
 
 
