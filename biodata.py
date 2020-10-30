@@ -1,26 +1,15 @@
-print "  =============  "
-print "     Biodata     "
-print "  =============  "
+print "  ==================================  "
+print "           Rizkyyzz Ganteng          "
+print "  ==================================  "
 #variabel
-nama= raw_input ("Masukan Nama Anda: ")
-alamat= raw_input ("Masukan Alamat: ")
-ttl= raw_input ("Masukan Tempat Tanggal Lahir Anda: ")
-jk= raw_input ("Jenis Kelamin: ")
-agama= raw_input ("Masukan Agama: ")
-pekerjaan= raw_input ("Pekerjaan: ")
-hoby= raw_input ("Masukan Hoby: ")
-km= raw_input ("Kata Mutiara: ")
+nama= raw_input ("Masukan Nama Lengkap Anda: ")
+panggilan= raw_input ("Masukan Nama Panggilan: ")
+nim= raw_input ("Masukan Nim Anda: ")
+ttl= raw_input ("Masukan Tempat Lahir Anda: ")
+tl= input ("Masukan Tanggal lahir  Anda: ")
+telp= raw_input ("Masukan No Telpon Anda: ")
+alamat= raw_input ("Masukan Alamat Anda: ")
+
 
 #Menampilkan Inputan User
-print "============================"
-print "       Biodata Anda         "
-print "============================"
-print "     Nama           : ",nama
-print "     Alamat         : ",alamat
-print "     Tempat Tanggal Lahir: ",ttl
-print "     Jenis Kelamin  : ",jk
-print "     Agama          : ",agama
-print "     Pekerjaan      : ",pekerjaan
-print "     Hoby           : ",hoby
-print "     Kata Mutiara   : ",km
-
+print "Let me introduce my self My name is",nama,"but you can call me",panggilan,".My NIM is",nim,"I was born in",ttl,"and I am",tl,"years old. I am very glad if you want to invite my house in",alamat,".So, don't forget to call me before with the number",telp,
