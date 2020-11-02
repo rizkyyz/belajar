@@ -53,9 +53,8 @@ source code fiatas berfungsi untuk mencetak hasil / output berupa " **masukan na
  
  print("nama lengkap saya adalah ...")
 print(696969)
-```
 <br>(Seperti gambar berikut ini <br>)
-![ke 2](https://user-images.githubusercontent.com/66506609/97840927-7e93c980-1d17-11eb-9767-9260732514fb.jpg)
+![image](https://user-images.githubusercontent.com/66506609/97841431-640e2000-1d18-11eb-84bf-f955715c3642.png)
 
 * Untuk source code berikutnya adalah inputan atau membuat variable. Seperti syntax dibawah ini:
 
