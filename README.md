@@ -158,3 +158,125 @@ Hasil dari source code terseut seperti gambar di bawah ini:
 
 * Pengertian separaktor
 Sepaktor adalah pemisah yang berfungsi sebagai tanda pemisah antar objek yang dicetak. Defaultnya adalah tanda sepasi <br><br>
+> Pendeklarasian beberapa variable berserta nilainya
+``` python
+w,x,y,z=10,15,20,25
+```
+> Menampilkan hasil setiap variable tiap-tiap variable
+``` python
+print(w,x,y,z)
+```
+> Menampilkan hasil variable dari tiap-tiap variable menggunakan pemisah , (koma)
+``` python
+print(w,x,y,z,sep=",")
+```
+> Menampilkan hasil variable dari tiap-tiap variable tanpa menggunakan pemisah
+``` python
+print(w,x,y,z,sep="")
+```
+> Menampilkan hasil variable dari tiap-tiap variable dengan menggunakan pemisah : (titik dua)
+``` python
+print(w,x,y,z,sep=":")
+```
+> Menampilkan hasil variable dari tiap-tiap variable dengan menggunakan pemisah ----
+``` python
+print(w,x,y,z,sep="-----")
+```
+
+Hasil dari syntax / source code diatas adalah seperti berikut iniL: <br>
+![Output Separator](praktikum/10.png)
+<br>
+<br>
+<br>
+### Pertemuan 6 - lab 1-2 
+* String format <br>
+String formatting atau pemformatan string memungkinkan kita menyuntikkan item kedalam string daripada kita mencoba menggabungkan string menggunakan koma atau string concatenation.<br>
+
+Penggunaan pada source yang di berikan Dosen sebagai berikut : <br>
+![Lab 1-2](praktikum/lab1-2.png) <br> 
+``` python
+# string format 1
+print(0, 10 ** 0)
+print(1, 10 ** 1)
+print(2, 10 ** 2)
+print(3, 10 ** 3)
+print(4, 10 ** 4)
+print(5, 10 ** 5)
+print(6, 10 ** 6)
+print(7, 10 ** 7)
+print(8, 10 ** 8)
+print(9, 10 ** 9)
+print(10, 10 ** 10)
+
+# string format 2
+print('{0:>3}{1:>16})'.format(0, 10 ** 0))
+print('{0:>3}{1:>16})'.format(1, 10 ** 1))
+print('{0:>3}{1:>16})'.format(2, 10 ** 2))
+print('{0:>3}{1:>16})'.format(3, 10 ** 3))
+print('{0:>3}{1:>16})'.format(4, 10 ** 4))
+print('{0:>3}{1:>16})'.format(5, 10 ** 5))
+print('{0:>3}{1:>16})'.format(6, 10 ** 6))
+print('{0:>3}{1:>16})'.format(7, 10 ** 7))
+print('{0:>3}{1:>16})'.format(8, 10 ** 8))
+print('{0:>3}{1:>16})'.format(9, 10 ** 9))
+print('{0:>3}{1:>16})'.format(10, 10 ** 10))
+```
+<br>
+Saat ini saya akan menjelaskan satu persatu dari syntax yang diberikan oleh Dosen <br>
+1. **String format 1** <br>
+Pada syntax / source code string format 1 akan menampilkan output berupa 2 outputan. <br>
+Yang pertama (sebelah kiri) akan menampilkan angka urut dari angka 0 hingga 10, sedangkan sebelah kanan akan menampilkan Oprasi Aritmatika Pangkat. <br>
+Dengan ketentuan sebagau berikut, oprasi pangkat dengan angka kiri sebagai pokok (Rumus : ** [Bintang dua]) <br>
+Hasil dari syntax tersebut adalah 10 pangkat 0, hingga 10 pangkat 10. Dengan output sebagai berikut : <br>
+
+![Operasi Aritmatika pangkat **](praktikum/pangkat.png)<br><br>
+
+2. **String Format 2** <br><br>
+Pada syntax / source code string format 2 akan menampilkan output berupa 2 output'an juga (Seoerti string format 1, yaitu kanan dan kiri) <br>
+Dengan ketentuan sebagai berikut : <br>
+> > Alignment, padding, dan precesion dengan **.format()** dalam kurung kurawal kita dapat menetapkan panjang bidang, rata kanan/kiri, parameter pembulatan dan banyak lagi. Contoh lain seperti berikut :
+``` python
+print('{0:8} | {1:9}'.format('sepatu','Jumlah'))
+print('{0:8} | {1:9}'.format('dalas', 3.))
+print('{0:8} | {1:9}'.format('NB',10))
+```
+Hasil dari source code contoh di atas akan seperti berikut : <br>
+![OutPut Aligmnent contoh](praktikum/nb.png)<br><br>
+> Secara default, **.format()** menggunakan rata text kiri, angka ke kanan. <,^, atau > untuk perataan kiri, tengah , atau kanan. Contoh lain dari penggunaan **.format()** sebagai berikut : <br>
+``` python
+print('{:<30}{:^30}{:>30}'.format('Kiri','Tengah','Kanan'))
+print('{:<30}{:^30}{:>30}'.format(12,34,56))
+```
+Hasil dari source code contohdiatas akan muncul seperti ini : <br>
+![Output Alignment](praktikum/rata.png)
+<br>
+<br>
+Hasil string format 2 adalah : <br>
+![Output Alignment contoh 2](praktikum/ratakanan.png)
+<br>
+<br>
+
+### Pertemuan 6 - Lab 2
+
+* Konversi Nilai Variable
+Untuk pembahasan terakhir, kali ini akan myenyelesaikan tugas Lab 2 dari Dosen, yaitu Konversi Nilai Variable <br>
+Tugas yang di berikan oleh Dosen adalah seperti gambar dibawah ini atau bisa di temukan dengan link berikut : ([temukan](lab%202.py))
+``` python
+a=int(input("Masukkan Nilai A : "))
+b=int(input("Masukkan Nilai B : "))
+print("Variable A : ",a)
+print("Variable B : ",b)
+print("Hasil penggabungan {1}&{0}=%d".format(a,b) %(a+b))
+
+#Konversi nilai variable
+a=int(a)
+b=int(b)
+print("Hasil penjumlahan {1}+{0}=%d".format(a,b) %(a+b))
+print("Hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
+```
+<br>
+Hasil dari source / code diatas : <br>
+
+![Output source diatas](praktikum/code.png)
+<br>
+<br>
