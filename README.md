@@ -51,9 +51,12 @@ print("masukan nama lengkap anda : ")
 source code fiatas berfungsi untuk mencetak hasil / output berupa " **masukan nama lengkap anda :** ". <br>
  Untuk menampilkan output string, saya menggunakan *tanda petik dua* didalam fungsi print(), sedangkan jika saya ingin menampilkan output / hasil berupa angka / interger saya tidak perlu menggunakan *tanda petik dua*. Contohnya:
  
- print("nama lengkap saya adalah ...")
+``` python
+print("nama lengkap saya adalah ...")
 print(696969)
-<br>(Seperti gambar berikut ini <br>)
+```
+* Seperti gambar berikut ini 
+
 ![image](https://user-images.githubusercontent.com/66506609/97841431-640e2000-1d18-11eb-84bf-f955715c3642.png)
 
 * Untuk source code berikutnya adalah inputan atau membuat variable. Seperti syntax dibawah ini:
