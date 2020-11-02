@@ -25,7 +25,7 @@ Berikut *source code* nya atau klik berikut ([latihan 5](tugas5.py)): <br>
 
 ``` python
 print "  ====================================" 
-print "          Latihan 1 Biodata             "
+print "       Latihan 1 Biodata Rizky        "
 print "  ===================================="
 
 #variabel
