@@ -108,7 +108,10 @@ Hasil dari output tersebut seperti berikut : <br>
 ### Pertemuan 6 - lab 1
 
 Pada halaman ini (Tugas pertemuan 6 - lab 1) Saya di berikan tugas oleh Dosen yaitu mempelajari Operator Aritmatika menggunakan bahasa pemograman python. Berikut source yang di berikan oleh Dosen [source lab 1](lab1.py)
-![Pertemmuan 6 - lab 1](praktikum/lab1.png)
+![Pertemmuan 6 - lab 1]
+
+<img width="158" alt="fot0 6" src="https://user-images.githubusercontent.com/66506609/97900144-de688f80-1d6c-11eb-84ec-5ad80103d26e.png">
+
 ``` python
 #Penggunaan End
 print("A", end="")
@@ -150,7 +153,8 @@ print("Y")
 print("Z")
 ```
 Hasil dari source code terseut seperti gambar di bawah ini: 
-![Output END](praktikum/abcd.png)
+
+
 
 * Pengertian separaktor
 Sepaktor adalah pemisah yang berfungsi sebagai tanda pemisah antar objek yang dicetak. Defaultnya adalah tanda sepasi <br><br>
