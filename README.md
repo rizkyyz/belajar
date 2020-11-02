@@ -25,26 +25,22 @@ Berikut *source code* nya atau klik berikut ([latihan 5](tugas5.py)): <br>
 
 ``` python
 print "  ====================================" 
-print "          Latihan Biodata             "
+print "          Latihan 1 Biodata             "
 print "  ===================================="
+
 #variabel
+
 nama= raw_input ("Masukan Nama Lengkap Anda: ")
 panggilan= raw_input ("Masukan Nama Panggilan: ")
 nim= raw_input ("Masukan Nim Anda: ")
 ttl= raw_input ("Masukan Tempat Lahir Anda`: ")
 tl= input ("Masukan Tanggal lahir  Anda: ")
-telpone= raw_input ("Masukan No Telpon Anda: ")
 alamat= raw_input ("Masukan Alamat Anda: ")
+telpone= raw_input ("Masukan No Telpon Anda: ")
 
-
-#Menampilkan Inputan User
-print "\n Assalamu'alaikum Wr.Wb. "
-print "Let me introduce my self My name is",nama,"but you can call me",panggilan,
-".My NIM is",nim,"I was born in",ttl,"and I am",tl,"years old. I am very glad if you want to invite my house in"
-,alamat,".So, don't forget to call me before with the number",telpone,
-* Berikut penjelasan :<br>
-``` python
-print("please your full name : ")
+#hasil inputan dari variable
+print "Assalamu'alaikum Wr.Wb"
+print "Let me introduce my self My name is",nama,"but you can call me",panggilan,"my NPM is",nim,"I was born in",ttl,"and I am",tl,"years old. I am very glad if you want to invite my house in",alamat,".So, don't forget to call me before with the number",telpone,
 ```
 source code fiatas berfungsi untuk mencetak hasil / output berupa " **please enter your full name :** ". <br>
  Untuk menampilkan output string, saya menggunakan *tanda petik dua* didalam fungsi print(), sedangkan jika saya ingin menampilkan output / hasil berupa angka / interger saya tidak perlu menggunakan *tanda petik dua*. Contohnya:
