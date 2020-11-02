@@ -42,14 +42,21 @@ telpone= raw_input ("Masukan No Telpon Anda: ")
 print "Assalamu'alaikum Wr.Wb"
 print "Let me introduce my self My name is",nama,"but you can call me",panggilan,"my NPM is",nim,"I was born in",ttl,"and I am",tl,"years old. I am very glad if you want to invite my house in",alamat,".So, don't forget to call me before with the number",telpone,
 ```
-source code fiatas berfungsi untuk mencetak hasil / output berupa " **please enter your full name :** ". <br>
+
+* Berikut penjelasan :<br>
+``` python
+print("masukan nama lengkap anda : ")
+```
+
+source code fiatas berfungsi untuk mencetak hasil / output berupa " **masukan nama lengkap anda :** ". <br>
  Untuk menampilkan output string, saya menggunakan *tanda petik dua* didalam fungsi print(), sedangkan jika saya ingin menampilkan output / hasil berupa angka / interger saya tidak perlu menggunakan *tanda petik dua*. Contohnya:
  
- print("nama saya adalah ...")
-print(1801)
+ print("nama lengkap saya adalah ...")
+print(696969)
 ```
 <br>(Seperti gambar berikut ini <br>)
-![Output fungsi print](praktikum/namaot.png) <br>
+![ke 2](https://user-images.githubusercontent.com/66506609/97840927-7e93c980-1d17-11eb-9767-9260732514fb.jpg)
+
 * Untuk source code berikutnya adalah inputan atau membuat variable. Seperti syntax dibawah ini:
 
 ``` python
