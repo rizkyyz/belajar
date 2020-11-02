@@ -15,10 +15,15 @@
 ### Pertemuan 5 - Latihan
 
 Pada pertemuan 5 bahasa pemograman, saya diberi soal untuk latihan oleh Dosen untuk membuat Aplikasi Biodata dengan python (Seperti gambar di bawah ini:)
-![latihan pertemuan 5](praktikum/latihan5.png)
+![latihan pertemuan 5]
+
+![foto 1](https://user-images.githubusercontent.com/66506609/97837657-3d002000-1d11-11eb-80d0-7332a6b8a92c.png)
+
+
 Saat ini saya akan menjelaskan hasil dari tugas tersebut. <br>
 Berikut *source code* nya atau klik berikut ([latihan 5](tugas5.py)): <br>
 
+``` python
 print "  ====================================" 
 print "          Latihan Biodata             "
 print "  ===================================="
@@ -43,7 +48,7 @@ print("please your full name : ")
 ```
 source code fiatas berfungsi untuk mencetak hasil / output berupa " **please enter your full name :** ". <br>
  Untuk menampilkan output string, saya menggunakan *tanda petik dua* didalam fungsi print(), sedangkan jika saya ingin menampilkan output / hasil berupa angka / interger saya tidak perlu menggunakan *tanda petik dua*. Contohnya:
- ``` python 
+ 
  print("nama saya adalah ...")
 print(1801)
 ```
