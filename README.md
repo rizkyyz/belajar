@@ -154,7 +154,7 @@ print("Z")
 ```
 Hasil dari source code terseut seperti gambar di bawah ini: 
 
-
+![Screenshot (78)](https://user-images.githubusercontent.com/66506609/97899963-98abc700-1d6c-11eb-8b66-db069d427d3b.png)
 
 * Pengertian separaktor
 Sepaktor adalah pemisah yang berfungsi sebagai tanda pemisah antar objek yang dicetak. Defaultnya adalah tanda sepasi <br><br>
