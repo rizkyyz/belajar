@@ -62,13 +62,16 @@ print(696969)
 * Untuk source code berikutnya adalah inputan atau membuat variable. Seperti syntax dibawah ini:
 
 ``` python
-fullname=input()
+nama=raw_input()
 ```
 Keterangan : <br>
-1. Variable adalah sebuah wadah penyimpanan data pada program yang akan digunakan selama program itu berjalan. Yang berfungsi sebagai variable dalam source code diatas adalah **fullname** . <br>
+1. Variable adalah sebuah wadah penyimpanan data pada program yang akan digunakan selama program itu berjalan. Yang berfungsi sebagai variable dalam source code diatas adalah **NAMA** . <br>
 
-2. Fungsi **input()** adalah untuk memasukan nilai dar layar console di command prompt, lalu kemudian mengembalikan nilai saat kita menekan tombol enter *(newline)* <br>
-![input](praktikum/hslnma.png) <br>
+2. Fungsi **input()** adalah untuk memasukan nilai dar layar console di command prompt, lalu kemudian mengembalikan nilai saat kita menekan tombol enter *(newline)*
+
+![image](https://user-images.githubusercontent.com/66506609/97842495-45108d80-1d1a-11eb-900f-768f750724bf.png)
+
+
 Pada gambar diatas, hasil dari inputan tersebut berwarna *putih* <br>
 * Untuk memasukan printah lain seperti *Nickname, NPM, Place of bircth, Date of bircth, Year of bircth, Phone number, and address* mengikuti perintah yang sama seperti memasukan *fullname* <br>
 
