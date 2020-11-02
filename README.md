@@ -73,7 +73,7 @@ Keterangan : <br>
 
 
 Pada gambar diatas, hasil dari inputan tersebut berwarna *putih* <br>
-* Untuk memasukan printah lain seperti *Nickname, NPM, Place of bircth, Date of bircth, Year of bircth, Phone number, and address* mengikuti perintah yang sama seperti memasukan *fullname* <br>
+* Untuk memasukan printah lain seperti *Nama, NIM, Tempat lahir, Tanggal Lahir, Nomor Telphone,* mengikuti perintah yang sama seperti memasukan *NAMA* <br>
 
 * Untuk menghitung rumus umur saya menggunakan variable *DOB* yaitu 2020 (Tahun sekarang) dikurangi dengan Year of bircth, pada source code berikut : <br>
 ``` python
@@ -84,14 +84,15 @@ Pada syntax / source code diatas, saya menggunakan variable *dob* dimana untuk m
 * Langkah kali ini saya akan menampilkan output yang diminta oleh Dosen. <br>
 Output pertama yang di minta Dosen adalah menampilkan salam, yaitu dengan mengetikkan syntax / source code berikut : 
 ``` python
-print("\n Asalammualaikum.")
+print("\n Asalammu'alaikum Wr.Wb. ")
 ```
 Keterangan :
 1. Fungsi **\n** pada source code diatas adalah untuk memberi baris baru / enter / *newline*
 2. Fungsi print() seperti dijelaskan pada point **Output** diatas
 Hasil source code diatas adalah seperti gambar dibawah ini : <br>
 
-![Output salam](praktikum/nma3.png)
+![image](https://user-images.githubusercontent.com/66506609/97844863-578cc600-1d1e-11eb-82a3-fff14807d002.png)
+
 * Langkah terakhir menampilkan semua hasil dari inputan diatas. Dengan mengetikan source code berikut : <br>
 ``` python
 print(f"Let me introduce my self. My name is {fullname}, but you can call me {nickname}. My NPM {npm}. I was born in {pob} and Iam {dob} years old. I am very glad if you want to invite my house in {address}. So don't forget to call me before with the number {phone}. \n Thank You ")
@@ -100,10 +101,9 @@ Keterangan : <br>
 * Fungsi huruf **f** pada perintah *print(f"....")* adalah fungsi print atau bisa memudahkan program dalam mencetak statement dalam suatu baris dibandingkan dengan metode yang lama yaitu memisahkan string dan variable dengan symbol koma ( , ) atau plus ( + ) <br>
 * Sedangkan fungsi {} pada output tersebut menampilkan hasil variable <br>
 Hasil dari output tersebut seperti berikut : <br>
-![alloutput](praktikum/alloutput.png)
-<br>
-<br>
-<br>
+
+![image](https://user-images.githubusercontent.com/66506609/97845181-d97cef00-1d1e-11eb-9d80-abd18be3e518.png)
+
 
 ### Pertemuan 6 - lab 1
 
