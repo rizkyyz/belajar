@@ -3,11 +3,9 @@
 ***
 
 ## Tugas Melengkapi Pertemuan 7
-| Nama | Muhammad Rizky Abdillah |
-| Nim  | 312010386 |    
-| Kelas | TI.20.A.2 |
-| Matkul | Bahasa Pemrograman |
-
+| Nama | kelas | Nim | Matkul |
+| -- | --- | ---- | ----------- |
+| Muhammad Rizky Abdillah | TI.A2.20 | 312010386 | Bahasa Pemrograman |
 ## Daftar Isi
 | No | ISI | Link | Source Code |
 | -- | --- | ---- | ----------- |
