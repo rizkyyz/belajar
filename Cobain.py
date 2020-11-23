@@ -1,3 +1,5 @@
+#Membuat variable perulangan dengan eaa.....
+#Jangan maling uyyy
 data = []
 while True : 
 	nama	= input	("Nama 		:")
@@ -10,6 +12,7 @@ while True :
 	lagi = input ("Tambah lagi (ya/tidak)?")
 	if lagi.lower() =="tidak":
 		break
+#prosess hasil dari lopping
 print ("=======================================================================================")
 print ("| No |	 Nama 	| NIM 	| TUGAS | UTS 	|	 UAS 	|	 NILAI AKHIR 	|")
 print ("=======================================================================================")
@@ -18,3 +21,4 @@ for x in data:
 	i+=1
 	print ("|{6:2d}| {0:9s}| {1:6s}| {2:6d}|{3:4d} |	 {4:5d}	 | 	{5:13.2f} 	|"\
 		.format (x[0][:9],x[1][:6],x[2],x[3],x[4],x[5],i))
+#Thankyouu....
