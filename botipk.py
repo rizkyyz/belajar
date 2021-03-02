@@ -5,22 +5,22 @@ Aplikasi KHS dengan paradigma prosedural
 # Matakuliah 1
 mk1_nama = 'kalkulus'
 mk1_sks = 3
-mk1_nilai = 77
+mk1_nilai = 67
 
 # Matakuliah 2
 mk2_nama = 'indonesia'
 mk2_sks = 2
-mk2_nilai = 81
+mk2_nilai = 77
 
 # Matakuliah 3
 mk3_nama = 'Algoritma dan Struktur Data'
 mk3_sks = 3
-mk3_nilai = 74
+mk3_nilai = 81
 
 # Matakuliah 4
 mk4_nama = 'pemrograman'
 mk4_sks = 3
-mk4_nilai = 74
+mk4_nilai = 77
 
 # Matakuliah 5
 mk5_nama = 'teknologi'
