@@ -80,6 +80,10 @@ total_sks = mk1_sks + mk2_sks + mk3_sks + mk4_sks + mk5_sks + mk6_sks + mk7_sks
 # Menghitung IPK
 ipk = ((mk1_skala_7 * mk1_sks) + (mk2_skala_7 * mk2_sks) + (mk3_skala_7 * mk3_sks) + (mk4_skala_7 * mk4_sks) + (mk5_skala_7 * mk5_sks) + (mk6_skala_7 * mk6_sks) + (mk7_skala_7 * mk7_sks)) / total_sks
 
+print("█▀▀ ─▀─ █─█ █▀▀█ █▀▀█ █▀▀█ █▀▀▄ █▀▀▀ 　 █▀▀ █──█ █▀▀▄ █▀▀ █▀▀█ 　 ▀▀█▀▀ █▀▀ █▀▀█ █▀▄▀█ ")
+print("█── ▀█▀ █▀▄ █▄▄█ █▄▄▀ █▄▄█ █──█ █─▀█ 　 █── █▄▄█ █▀▀▄ █▀▀ █▄▄▀ 　 ──█── █▀▀ █▄▄█ █─▀─█ 	 ")
+print("▀▀▀ ▀▀▀ ▀─▀ ▀──▀ ▀─▀▀ ▀──▀ ▀──▀ ▀▀▀▀ 　 ▀▀▀ ▄▄▄█ ▀▀▀─ ▀▀▀ ▀─▀▀ 　 ──▀── ▀▀▀ ▀──▀ ▀───▀	 ")
+
 print("KARTU HASIL ")
 print("--------------------------")
 print("Mata Kuliah : {}".format(mk1_nama))
